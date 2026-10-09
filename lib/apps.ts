@@ -9,31 +9,17 @@ export type ReservationApp = {
 
 export const reservationApps: ReservationApp[] = [
   {
-    id: "vergaderruimte",
-    title: "Vergaderruimte",
-    description: "Reserveer een zaal of overlegruimte op locatie.",
-    href: "#",
-    image: "/apps/vergadering.jpg",
+    id: "Duofiets reserverings systeem",
+    title: "Duofiets reserverings systeem",
+    description: "Reserveer een Duofiets bij een van de IJsselheem locaties.",
+    href: "https://duofiets.ijsselheem.app",
+    image: "/apps/duofiets.jpg",
   },
   {
-    id: "bezoek",
-    title: "Bezoek",
-    description: "Plan een bezoek bij een cliënt of locatie.",
-    href: "#",
-    image: "/apps/bezoek.jpg",
-  },
-  {
-    id: "dagbesteding",
-    title: "Dagbesteding",
-    description: "Meld iemand aan voor een activiteit of dagprogramma.",
-    href: "#",
-    image: "/apps/dagbesteding.jpg",
-  },
-  {
-    id: "behandeling",
-    title: "Behandeling",
-    description: "Maak een afspraak voor behandeling of revalidatie.",
-    href: "#",
-    image: "/apps/behandeling.jpg",
+    id: "Raizer ophalen",
+    title: "Raizer reserverings systeem",
+    description: "Wanneer er een iemand gevallen is, dan kan de raizer worden gereserveerd en opgehaald bij een van de IJsselheem locaties.",
+    href: "https://raizer-reservering-systeem.sites.ijsselheem.dev/",
+    image: "/apps/raizer.jpg",
   },
 ];
